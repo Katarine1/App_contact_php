@@ -33,8 +33,8 @@
 							$message = $_POST['message'];
 
 							//What the email is for
-							$email_sender = "seu_servidor@email.com.br"; //do domínio
-							$email_adress = "qualquer_email@email.com"; // que recebe
+							$email_sender = "servidor@email.com"; //do domínio
+							$email_adress = "any_email@email.com"; // que recebe
 							$email_reply = "$email"; 
 							$email_subject = "$subject";
 							
