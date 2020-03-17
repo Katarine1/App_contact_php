@@ -1,0 +1,89 @@
+/* All */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Body */
+body {
+	width: 100%;
+	font-family: "verdana", sans-serif;
+}
+
+/* Body - Header - Section */
+header, section {
+	width: 80%;
+}
+
+/* Header */
+header {
+	height: 200px;
+}
+
+/* Header img */
+header img {	
+	width: 300px;
+}
+
+/* Form input - textarea */
+form input, form textarea {
+	width: 500px;
+	max-width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	border:1px solid blue;
+}
+
+/* Form textarea */
+form textarea {
+	height: 100px;
+}
+
+/* form #btn */
+form #btn {
+	background-color: blue;
+	color: #fff;
+	font-weight: 900;
+}
+
+/* Header Center */
+.body_center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Header Center */
+.header_center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Form Center */
+.form_center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Section Center */
+.section_center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Resolution Maximum 620px */
+@media (max-width: 620px){
+	header img {	
+		width: 230px;
+	}
+	form input, form textarea {
+		width: 80%;
+	}
+}
